@@ -2,7 +2,8 @@
   "meta": {
     "username": "anthonny",
     "repositoryName": "dev.hubpress.io",
-    "branch": "gh-pages"
+    "branch": "gh-pages",
+    "cname": ""
   },
   "theme": {
     "name": "casper"
@@ -26,5 +27,31 @@
     "beforeCreate": [
       null
     ]
-  }
+  },
+  "site": {
+    "title": "Demo HubPress Anthonny",
+    "description": "Another demo of HubPress",
+    "logo": "https://hubpress.github.io/img/freeze/logo.png",
+    "cover": "https://images.pexels.com/photos/14676/pexels-photo-14676.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "delay": "",
+    "postsPerPage": "",
+    "blogPath": "",
+    "googleAnalytics": "",
+    "disqus": ""
+  },
+  "socialnetwork": {
+    "email": "",
+    "github": "",
+    "twitter": "",
+    "facebook": "",
+    "googleplus": "",
+    "instagram": "",
+    "pinterest": "",
+    "flickr": "",
+    "linkedin": "",
+    "stackoverflow": "",
+    "paypalme": "",
+    "opencollective": ""
+  },
+  "navigation": []
 }
