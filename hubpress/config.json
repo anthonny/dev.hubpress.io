@@ -9,10 +9,10 @@
     "name": "casper"
   },
   "urls": {
-    "site": "https://anthonny.github.io/dev.hubpress.io",
-    "hubpress": "https://anthonny.github.io/dev.hubpress.io",
-    "theme": "//anthonny.github.io/dev.hubpress.io/themes/casper",
-    "images": "https://anthonny.github.io/dev.hubpress.io/images"
+    "site": "http://demo-hubpress.anthonnyquerouil.fr",
+    "hubpress": "https://demo-hubpress.anthonnyquerouil.fr",
+    "theme": "//demo-hubpress.anthonnyquerouil.fr/themes/casper",
+    "images": "http://demo-hubpress.anthonnyquerouil.fr/images"
   },
   "initialisationConfigComponent": {
     "name": "initialise-configuration",
