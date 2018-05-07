@@ -53,5 +53,14 @@
     "paypalme": "",
     "opencollective": ""
   },
-  "navigation": []
+  "navigation": [
+    {
+      "label": "Home",
+      "url": "https://anthonny.github.io/dev.hubpress.io"
+    },
+    {
+      "label": "About",
+      "url": "https://anthonny.github.io/dev.hubpress.io/about-me.html"
+    }
+  ]
 }
