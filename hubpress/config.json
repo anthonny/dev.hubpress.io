@@ -5,6 +5,26 @@
     "branch": "gh-pages"
   },
   "theme": {
-    "name": "Casper"
+    "name": "casper"
+  },
+  "urls": {
+    "site": "https://anthonny.github.io/dev.hubpress.io",
+    "hubpress": "https://anthonny.github.io/dev.hubpress.io",
+    "theme": "//anthonny.github.io/dev.hubpress.io/themes/casper",
+    "images": "https://anthonny.github.io/dev.hubpress.io/images"
+  },
+  "initialisationConfigComponent": {
+    "name": "initialise-configuration",
+    "computed": {},
+    "methods": {},
+    "staticRenderFns": [
+      null,
+      null,
+      null
+    ],
+    "_compiled": true,
+    "beforeCreate": [
+      null
+    ]
   }
 }
