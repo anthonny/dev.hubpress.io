@@ -6,7 +6,7 @@
     "cname": "demo-hubpress.anthonnyquerouil.fr"
   },
   "theme": {
-    "name": "casper"
+    "name": "ghostium"
   },
   "urls": {
     "site": "http://demo-hubpress.anthonnyquerouil.fr",
@@ -37,7 +37,7 @@
     "postsPerPage": "",
     "blogPath": "",
     "googleAnalytics": "",
-    "disqus": ""
+    "disqus": "anthonny_q"
   },
   "socialnetwork": {
     "email": "",
