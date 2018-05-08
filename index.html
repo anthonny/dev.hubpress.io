@@ -1,15 +1,84 @@
 <!DOCTYPE html>
-<html lang="">
-<head>
-
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
     <title>Demo HubPress Anthonny</title>
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" type="text/css" href="//demo-hubpress.anthonnyquerouil.fr/themes/casper/assets/built/screen.css?v=1525781223942" />
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="description" content="">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Demo HubPress Anthonny">
+    <meta name="twitter:description" content="">
+
+    <meta property="og:url" content="http://demo-hubpress.anthonnyquerouil.fr">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Demo HubPress Anthonny">
+    <meta property="og:description" content="">
+    <meta property="og:site_name" content="Demo HubPress Anthonny">
+
+    <meta itemprop="name" content="Demo HubPress Anthonny">
+    <meta itemprop="description" content="">
+
+    <meta name="twitter:site" content="@yourblogtwitter">
+    
+    <meta name="twitter:creator" content="@yourtwitter">
+    
+    <meta property="article:author" content="https://www.facebook.com/yourprofile">
+    
+    <meta property="article:publisher" content="https://www.facebook.com/yourblogprofile">
+    
+    <meta property="fb:admins" content="">
+    
+    <meta name="google-site-verification" content="">
+    
+    <link rel="author" href="https://plus.google.com/yourprofile">
+    
+    <meta name="theme-color" content="">
+
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
+
+    <link href="//fonts.googleapis.com/" rel="dns-prefetch">
+    <link href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400&subset=latin,latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="//demo-hubpress.anthonnyquerouil.fr/themes/ghostium/assets/css/main.min.css?v=1525781995108">
+    <link rel="stylesheet" href="//demo-hubpress.anthonnyquerouil.fr/themes/ghostium/assets/css/asciidoctor-foundation.css?v=1525781995108"/>
+
+    <script type="text/javascript">
+      var ga_ua = 'UA-XXXXX-X';
+      
+      var disqus_shortname = 'example';
+      
+      var enable_pjax = true;
+
+      // Pace Options
+      // ==============
+      window.paceOptions = {
+        catchupTime: 100,
+        minTime: 100,
+        elements: false,
+        restartOnRequestAfter: 500,
+        startOnPageLoad: false
+      }
+
+      // Ghostium Globals
+      // ==============
+      window.GHOSTIUM = {};
+      GHOSTIUM.haveGA = typeof ga_ua !== 'undefined' && ga_ua !== 'UA-XXXXX-X';
+      GHOSTIUM.haveDisqus = typeof disqus_shortname !== 'undefined' && disqus_shortname !== 'example';
+      GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
+    </script>
+
+    <script src="//demo-hubpress.anthonnyquerouil.fr/themes/ghostium/assets/js/head-scripts.min.js?v=1525781995108"></script>
 
     <link rel="canonical" href="http://demo-hubpress.anthonnyquerouil.fr/" />
     <meta name="referrer" content="origin" />
@@ -36,98 +105,99 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prism/1.14.0/themes/prism-okaidia.min.css">
     
         <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+  </head>
+  <body class="home-template">
 
-</head>
-<body class="home-template">
-
-    <div class="site-wrapper">
-
-        
-<header class="site-header outer " style="background-image: url(https://images.pexels.com/photos/14676/pexels-photo-14676.png?auto&#x3D;compress&amp;cs&#x3D;tinysrgb&amp;dpr&#x3D;2&amp;h&#x3D;750&amp;w&#x3D;1260)">
-    <div class="inner">
-        <div class="site-header-content">
-            <h1 class="site-title">
-                    <img class="site-logo" src="https://hubpress.github.io/img/freeze/logo.png" alt="Demo HubPress Anthonny" />
-            </h1>
-            <h2 class="site-description">Another demo of HubPress</h2>
-        </div>
-        <nav class="site-nav">
-            <div class="site-nav-left">
-                        <a class="site-nav-logo" href="http://demo-hubpress.anthonnyquerouil.fr"><img src="https://hubpress.github.io/img/freeze/logo.png" alt="Demo HubPress Anthonny" /></a>
-                    <ul class="nav">
-            <li class="nav-home" role="presentation"><a href="https://anthonny.github.io/dev.hubpress.io">Home</a></li>
-            <li class="nav-about" role="presentation"><a href="https://anthonny.github.io/dev.hubpress.io/about-me.html">About</a></li>
+    <button data-action="open-drawer" id="drawer-button" class="drawer-button"><i class="fa fa-bars"></i></button>
+    <nav tabindex="-1" class="drawer">
+      <div class="drawer-container">
+        <!--.drawer-search(role="search")-->
+        <ul role="navigation" class="drawer-list">
+          
+          <li class="drawer-list-item">
+            <a href="/" data-pjax>
+              <i class="fa fa-home"></i>Home
+            </a>
+          </li>
+          <li class="drawer-list-item">
+            <a href="http://demo-hubpress.anthonnyquerouil.fr/rss/">
+              <i class="fa fa-rss"></i>Subscribe to Feed
+            </a>
+          </li>
+          <li class="drawer-list-divider"></li>
+          <li class="drawer-list-item drawer-list-title">
+            Follow me
+          </li>
+          
+          
         </ul>
-            </div>
-            <div class="site-nav-right">
-                <div class="social-links">
-                </div>
-                    <a class="rss-button" href="https://feedly.com/i/subscription/feed/http://demo-hubpress.anthonnyquerouil.fr/rss/" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
-        </a>
-            </div>
-        </nav>
-    </div>
-</header>
+      </div>
+    </nav>
 
-<main id="site-main" class="site-main outer">
-    <div class="inner">
+    <div class="drawer-overlay"></div>
+    <main id="container" role="main" class="container">
+      <div class="surface">
+        <div class="surface-container">
+          <div data-pjax-container class="content">
+            
+<aside role="banner" class="cover">
+  <div data-load-image="https://images.pexels.com/photos/14676/pexels-photo-14676.png?auto&#x3D;compress&amp;cs&#x3D;tinysrgb&amp;dpr&#x3D;2&amp;h&#x3D;750&amp;w&#x3D;1260" class="cover-image"></div>
+  <div class="cover-container">
+      <a href="http://demo-hubpress.anthonnyquerouil.fr" class="cover-logo" data-pjax>
+        <img src="https://hubpress.github.io/img/freeze/logo.png" alt="Blog Logo">
+      </a>
+    <h1 class="cover-title">Demo HubPress Anthonny</h1>
+    <p class="cover-description">Another demo of HubPress</p>
+  </div>
+</aside>
+<section class="wrapper" tabindex="0">
+  <div class="wrapper-container">
 
-        <div class="post-feed">
+    <section class="post-list">
+        <article itemscope itemtype="http://schema.org/BlogPosting"
+          role="article" class="post-item post">
+          <header class="post-item-header">
+            <h2 itemprop="name" class="post-item-title">
+              <a href="http://demo-hubpress.anthonnyquerouil.fr/2018/05/07/First-post.html" itemprop="url" data-pjax title="First post">
+                First post
+              </a>
+            </h2>
+          </header>
+          <section itemprop="description" class="post-item-excerpt">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper lacinia interdum. Mauris at lacus gravida, sodales nulla ac, tristique metus. Nullam venenatis commodo enim a porttitor. Sed a neque ut odio venenatis euismod non&hellip;</p>
+          </section>
+          <footer class="post-item-footer">
+            <ul class="post-item-meta-list">
+              <li class="post-item-meta-item">
+                <time datetime="2018-05-07" itemprop="datePublished">
+                  2 days ago
+                </time>
+              </li>
+              <li class="post-item-meta-item">
+                <a href="http://demo-hubpress.anthonnyquerouil.fr/2018/05/07/First-post.html#disqus_thread" data-pjax data-disqus-identifier="">Comments</a>
+              </li>
+            </ul>
+          </footer>
+        </article>
+    </section>
 
-                <article class="post-card post">
-                        <a class="post-card-image-link" href="http://demo-hubpress.anthonnyquerouil.fr/2018/05/07/First-post.html">
-                            <div class="post-card-image" style="background-image: url(https://cdn.pixabay.com/photo/2017/09/12/11/56/universe-2742113_1280.jpg)"></div>
-                        </a>
-                    <div class="post-card-content">
-                        <a class="post-card-content-link" href="http://demo-hubpress.anthonnyquerouil.fr/2018/05/07/First-post.html">
-                            <header class="post-card-header">
-                                <h2 class="post-card-title">First post</h2>
-                            </header>
-                            <section class="post-card-excerpt">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper lacinia interdum. Mauris at lacus gravida, sodales nulla ac, tristique metus. Nullam venenatis commodo enim a porttitor. Sed a neque ut odio venenatis</p>
-                            </section>
-                        </a>
-                        <footer class="post-card-meta">
-                
-                            <ul class="author-list">
-                                <li class="author-list-item">
-                
-                                    <div class="author-name-tooltip">
-                                        Anthonny Quérouil
-                                    </div>
-                
-                                        <a href="/" class="static-avatar"><img class="author-profile-image" src="https://avatars1.githubusercontent.com/u/2006548?v&#x3D;4" alt="Anthonny Quérouil" /></a>
-                                </li>
-                            </ul>
-                
-                            <span class="reading-time"></span>
-                
-                        </footer>
-                    </div>
-                </article>
+      <nav role="pagination" class="post-list-pagination">
+  <span class="post-list-pagination-item post-list-pagination-item-current">Page 1 of 1</span>
+</nav>
 
+
+    <footer role="contentinfo" class="footer">
+      <p><small>© 2018. All Rights Reserved.</small></p>
+      <p><small><a href="http://ghostium.oswaldoacauan.com/" target="_blank">Ghostium Theme</a> by <a href="http://twitter.com/oswaldoacauan" target="_blank">@oswaldoacauan</a></small></p>
+      <p><small>Proudly published with <a href="https://hubpress.github.io" target="_blank">HubPress</a></small></p>
+    </footer>
+  </div>
+</section>
+
+          </div>
         </div>
-
-    </div>
-</main>
-
-
-        <footer class="site-footer outer">
-            <div class="site-footer-content inner">
-                <section class="copyright"><a href="http://demo-hubpress.anthonnyquerouil.fr">Demo HubPress Anthonny</a> &copy; 2018</section>
-                <nav class="site-footer-nav">
-                    <a href="http://demo-hubpress.anthonnyquerouil.fr">Latest Posts</a>
-                    
-                    
-                    
-                    
-                    
-                    <a href="https://hubpress.github.io" target="_blank" rel="noopener">HubPress</a>
-                </nav>
-            </div>
-        </footer>
-
-    </div>
+      </div>
+    </main>
 
 
     <script
@@ -135,18 +205,6 @@
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous">
     </script>
-    <script type="text/javascript" src="//demo-hubpress.anthonnyquerouil.fr/themes/casper/assets/js/jquery.fitvids.js?v=1525781223942"></script>
-
-    <script>
-        // maxPages is a global variable that is needed to determine
-        // if we need to load more pages for the infinitescroll, or if
-        // we reached the last page already.
-        var maxPages = parseInt('1');
-    </script>
-    <script src="//demo-hubpress.anthonnyquerouil.fr/themes/casper/assets/js/infinitescroll.js?v=1525781223942"></script>
-
-    
-
     <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/prism/1.14.0/prism.min.js?v="></script> 
       <script type="text/javascript">
         jQuery( document ).ready(function() {
@@ -160,5 +218,7 @@
         // hljs.initHighlightingOnLoad();
       </script>
 
-</body>
+    <script src="//demo-hubpress.anthonnyquerouil.fr/themes/ghostium/assets/js/foot-scripts.min.js?v=1525781995108"></script>
+
+  </body>
 </html>
