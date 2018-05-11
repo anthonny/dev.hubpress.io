@@ -10,7 +10,7 @@
   },
   "urls": {
     "site": "http://demo-hubpress.anthonnyquerouil.fr",
-    "hubpress": "http://localhost:3000",
+    "hubpress": "https://demo-hubpress.anthonnyquerouil.fr",
     "theme": "//demo-hubpress.anthonnyquerouil.fr/themes/casper",
     "images": "http://demo-hubpress.anthonnyquerouil.fr/images"
   },
