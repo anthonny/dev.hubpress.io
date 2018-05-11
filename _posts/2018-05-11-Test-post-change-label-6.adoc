@@ -5,6 +5,7 @@
 // :hp-tags: HubPress, Blog, Open_Source,
 // :hp-alt-title: My English Title
 
-= Test post change label 5
+= Test post change label 6
+:hp-image: /images/cover-hubpress.png
 
 Hello you
