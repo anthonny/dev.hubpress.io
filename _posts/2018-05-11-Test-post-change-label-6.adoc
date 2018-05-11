@@ -8,6 +8,6 @@
 = Test post change label 6
 :hp-image: /images/cover-hubpress.png
 
-Hello you
+Hello you!
 
 :image:cover-hubpress.png[]
