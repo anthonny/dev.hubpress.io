@@ -9,3 +9,5 @@
 :hp-image: /images/cover-hubpress.png
 
 Hello you
+
+:image:cover-hubpress.png[]
