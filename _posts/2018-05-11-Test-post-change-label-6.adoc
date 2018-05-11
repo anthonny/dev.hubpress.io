@@ -6,6 +6,6 @@
 // :hp-alt-title: My English Title
 
 = Test post change label 6
-:hp-image: images/cover-hubpress.png
+:hp-image: /images/cover-hubpress.png
 
 Hello you
