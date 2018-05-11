@@ -11,7 +11,7 @@
   "urls": {
     "site": "http://demo-hubpress.anthonnyquerouil.fr",
     "hubpress": "http://localhost:3000",
-    "theme": "//demo-hubpress.anthonnyquerouil.fr/themes/casper",
+    "theme": "//demo-hubpress.anthonnyquerouil.fr/themes/ghostium",
     "images": "http://demo-hubpress.anthonnyquerouil.fr/images"
   },
   "initialisationConfigComponent": {
