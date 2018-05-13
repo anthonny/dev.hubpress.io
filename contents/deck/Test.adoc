@@ -6,5 +6,5 @@
 // :hp-alt-title: My English Title
 
 = Test post
-
+:hp-type: deck
 Hello you
