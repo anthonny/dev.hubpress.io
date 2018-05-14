@@ -6,9 +6,9 @@
 // :hp-tags: HubPress, Blog, Open_Source,
 // :hp-alt-title: My English Title
 
-= Mon troisieme deck
+= Mon troisieme deck :)
 :hp-type: deck
 
-== Test 
+== Test
 
 == Test 2
