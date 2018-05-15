@@ -8,7 +8,10 @@
 :source-highlighter: highlightjs
 :title-slide-transition: zoom
 :title-slide-transition-speed: fast
-= BREIZH < : [title-left-part]#to the# camp
+:hp-deckonf: devoxxFR/2017, devoxxFR/2018
+= BREIZHH < : [title-left-part]#to the# camp
+
+Allo ?????? :P :D :F
 
 [NOTE.speaker]
 --
