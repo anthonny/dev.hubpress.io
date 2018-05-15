@@ -1,0 +1,17 @@
+// = Your Blog title
+// See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
+// :hp-type: deck
+// :hp-image: /covers/cover.png
+// :published_at: 2019-01-31
+// :hp-tags: HubPress, Blog, Open_Source,
+// :hp-alt-title: My English Title
+
+= My Conf
+:hp-type: deck
+:revealjs_customtheme: https://anthonny.github.io/decks/full-stack-reactivity-avec-meteorjs/bdxio2015/assets/theme/jsc2015/jsc2015.css
+
+== Awesome slide 1
+
+== Awesome slide 2
+
+=== Awesome slide 2.1
