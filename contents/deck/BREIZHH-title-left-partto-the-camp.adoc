@@ -9,6 +9,7 @@
 :title-slide-transition: zoom
 :title-slide-transition-speed: fast
 :hp-deckonf: devoxxFR/2017, devoxxFR/2018
+:revealjs_theme: http://anthonny.github.io/decks/full-stack-reactivity-avec-meteorjs/bdxio2015/assets/theme/bdxio
 = BREIZHH < : [title-left-part]#to the# camp
 
 Allo ?????? :P :D :F
