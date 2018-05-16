@@ -1,0 +1,435 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>BREIZHH &lt; : to the camp</title><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" name="viewport"><link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.css" rel="stylesheet"><link rel="stylesheet" href="http://anthonny.github.io/decks/full-stack-reactivity-avec-meteorjs/bdxio2015/assets/theme/jsc2015/jsc2015.css" id="theme"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"><link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/css/zenburn.css" rel="stylesheet"><script>var link = document.createElement( 'link' );
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = window.location.search.match( /print-pdf/gi ) ? "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/print/pdf.css" : "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/print/paper.css";
+document.getElementsByTagName( 'head' )[0].appendChild( link );</script><!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/js/html5shiv.js"></script><![endif]--></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title" data-transition="zoom" data-transition-speed="fast"><h1>BREIZHH &lt; </h1><h2><span class="title-left-part">to the</span> camp</h2><div class="preamble"><div class="paragraph"><p>Allo ?????? :P :D :F</p></div>
+<aside class="notes"><div class="paragraph"><p>M: Doc ? Doc ? Vous êtes où ?</p></div>
+<div class="paragraph"><p><em>Marty recherche Doc et avance au slide suivant</em> :D</p></div></aside></div></section>
+<section id="previously_on_breizhcamp"><h2>PREVIOUSLY&nbsp;ON&nbsp;BREIZHCAMP</h2><div class="paragraph"><p><span class="actor-role">Doc</span> est parti quelques années dans le futur pour comprendre comment on developpera des applications sur la JVM.</p></div>
+<aside class="notes"><div class="paragraph"><p>D: Martyyy, tu tombes bien! Je reviens du futur et j&#8217;ai découvert quelquechose d&#8217;horrible.
+Malgré les efforts de nombreuses personnes, la plateforme cfp.io est vouée à disparaître.</p></div>
+<div class="paragraph"><p>M: Mais Doc c&#8217;est pas justement là que l&#8217;on a posté notre conférence pour le BreizhCamp.</p></div>
+<div class="paragraph"><p>D: Si Marty, mais des gens bien intentionné ont préféré l&#8217;abandonner car il manque des fonctionnalités et il y a des bugs.</p></div>
+<div class="paragraph"><p>M: Mais pourquoi ça n&#8217;a pas été corrigé ? La plateforme est open source, non ?</p></div>
+<div class="paragraph"><p>D: Vient Marty, je te montre.</p></div></aside></section>
+<section id="in_the_past_of_cfp_io"><h2>IN THE PAST OF CFP.IO</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="bash language-bash">commit cfc41bb48e4fc66dd2bf04588e24f590147cef45
+Author: Nicolas De Loof &lt;nicolas.deloof@gmail.com&gt;
+Date:   Tue Apr 25 16:24:44 2017 +0200
+
+    ah le code legacy,
+    même pas foutu de respected la norme javabean :-\
+
+commit 771136b238f375edf44c092c8c37b6014919e6cf
+Author: Nicolas De Loof &lt;nicolas.deloof@gmail.com&gt;
+Date:   Wed Mar 8 19:15:11 2017 +0100
+
+    java Date API sucks
+
+commit 2b67097a80dc5e970b12665924ebc73b751adc10
+Merge: f9fcc1b9 5b11b30d
+Author: Marc &lt;marc.audefroy@ovh.fr&gt;
+Date:   Tue Dec 8 18:27:06 2015 +0100
+
+    Merge branch 'cospeakers'   Note du dev : GRRRRRRR
+
+    Conflicts:
+            src/main/java/fr/sii/controller/restricted/session/SessionController.java
+            src/main/java/fr/sii/dto/TalkUser.java
+            src/main/java/fr/sii/dto/mapping/TalkMapping.java
+            src/main/java/fr/sii/service/TalkUserService.java
+            src/main/resources/changelog/changelog-1.0.xml
+            src/main/static/app/scripts/controllers/restricted/talks/edit.js
+
+commit dc41801e45d6c1c23b17325eafe712824808e9be
+Author: Nicolas De Loof &lt;nicolas.deloof@gmail.com&gt;
+Date:   Sat Nov 7 14:33:42 2015 +0100
+
+    can’t run with java 8</code></pre></div></div>
+<aside class="notes"><div class="paragraph"><p>M: Heu&#8230;&#8203; Doc ? C&#8217;est moi où c&#8217;est du Java.</p></div>
+<div class="paragraph"><p>D: Tu sais Marty, à l&#8217;époque il n&#8217;y avait pas trop de choix.</p></div>
+<div class="paragraph"><p>M: On pourrait pas utiliser Kotlin pour rajouter du code ?</p></div>
+<div class="paragraph"><p>D: Nom de Zeus, tu as raison Marty. Kotlin, c&#8217;est le back du futur !
+On peut faire la même chose que Java et bien plus encore.</p></div></aside></section>
+<section data-transition="zoom"><div class="paragraph"><p><span class="header">KOTLIN &lt;</span> <span class="hearder-line">&gt; LE BACK DU FUTUR</span></p></div></section>
+<section id="starring"><h2>STARRING</h2><div class="imageblock actor" style=""><img src="http://demo-hubpress.anthonnyquerouil.fr/images/adrien.png" alt="adrien"></div>
+<div class="paragraph"><p>Adrien Pessu as <span class="actor-role">Marty</span></p></div>
+<div class="paragraph"><p>Freelance</p></div>
+<div class="paragraph"><p>🐦 @adrien_pe</p></div></section>
+<section id="and"><h2>AND</h2><div class="imageblock actor" style=""><img src="http://demo-hubpress.anthonnyquerouil.fr/images/gautier.png" alt="gautier"></div>
+<div class="paragraph"><p>Gautier de Saint Martin Lacaze as <span class="actor-role">Doc</span></p></div>
+<div class="paragraph"><p>Freelance &amp; Nantes JUG Leader</p></div>
+<div class="paragraph"><p>🐦 @darkjabberwock</p></div></section>
+<section id="introduction"><h2>INTRODUCTION</h2><div class="imageblock" style=""><img src="http://demo-hubpress.anthonnyquerouil.fr/images/kotlin-text.svg" alt="kotlin text"></div>
+<aside class="notes"><div class="ulist"><ul><li><p>JetBrain</p></li><li><p>Iles</p></li><li><p>2011</p></li><li><p>Apache2</p></li><li><p>Google &#8594; Mai 2017</p></li><li><p>syntaxe concise, simple sur JVM</p></li><li><p>Pas exhaustif dans notre présentation</p></li></ul></div></aside></section>
+<section><section id="les_bases_de_la_syntaxe"><h2>LES BASES DE LA SYNTAXE</h2></section><section id="val_vs_var"><h2>VAL VS VAR</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">val quote: String = "Allô ? Allô ?"
+
+
+
+
+
+
+
+//</code></pre></div></div></section><section id="val_vs_var_2"><h2>VAL VS VAR</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">val name = "McFly"
+
+var quote: String = ""
+
+quote = """ Allô ? Allô ?
+| Y'a personne au bout du fil ?
+| Faut réfléchir ${name} !
+| Faut réfléchir
+"""</code></pre></div></div>
+<aside class="notes"><div class="paragraph"><p>val correspond à une valeur non modifiable.
+Doit être initialisée lors de la déclaration.</p></div>
+<div class="paragraph"><p>var peut varier.
+Peut être initialisé plus tard.</p></div></aside></section><section id="type_basique"><h2>TYPE BASIQUE</h2><div class="ulist"><ul><li class="fragment"><p>Pas de type primitif</p></li><li class="fragment"><p>Any</p></li><li class="fragment"><p>Double, Float, Int, Char, String, &#8230;&#8203;</p></li><li class="fragment"><p>API Collection</p></li></ul></div></section><section id="array"><h2>ARRAY</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">val versions: Array&lt;Int&gt; = arrayOf(1, 2, 4)
+versions[2] = 3
+
+val sentence = "Il y a ${versions[versions.size - 1]} films."
+print(sentence)</code></pre></div></div>
+<aside class="notes"><div class="ulist"><ul><li><p>Génériques</p></li><li><p>get/set &#8658; []</p><div class="ulist"><ul><li><p>redefinition du get / set</p></li></ul></div></li></ul></div></aside></section><section id="array_2"><h2>ARRAY</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">val versions: IntArray = intArrayOf(1, 2, 4)
+versions[2] = 3
+
+val sentence = "Il y a ${versions.size} films. Le dernier est le ${versions[versions.size - 1]}."
+print(sentence)</code></pre></div></div>
+<aside class="notes"><div class="ulist"><ul><li><p>specialized classes : IntArray, ShortArray&#8230;&#8203;</p></li></ul></div></aside></section><section id="array_3"><h2>ARRAY</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">val versions: Array&lt;Int&gt; = arrayOf(1, 2, 3)
+val anyVersions: Array&lt;Any&gt; = versions // won't compile</code></pre></div></div>
+<aside class="notes"><div class="ulist"><ul><li><p>invariant &#8658;  assign an Array&lt;String&gt; to an Array&lt;Any&gt; impossible</p></li></ul></div></aside></section><section id="range"><h2>RANGE</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">if (i in 1..3) {
+  println("""Retour vers le futur ${i}""")
+}
+
+for (i in IntRange(1, 3)) {
+  println("""Retour vers le futur ${i}""")
+}</code></pre></div></div></section><section id="range_2"><h2>RANGE</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">for (i in 1..4 step 2) {
+  println("""Retour vers le futur ${i}""")
+}
+
+for (i in 4 downTo 1 step 2) {
+  println("""Retour vers le futur ${i}""")
+}</code></pre></div></div></section><section id="smart_cast"><h2>SMART CAST</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">if (talk !is String) return
+print(talk.length)</code></pre></div></div></section><section id="smart_cast_2"><h2>SMART CAST</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">val conf: String = bzhCmp as String?
+val speaker: String? = mcFly as? String</code></pre></div></div>
+<aside class="notes"><div class="paragraph"><p>unsafe throw exception / safe return null</p></div></aside></section><section id="dclaration_fonctions"><h2>DÉCLARATION FONCTIONS</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">fun speakerName(name: String, firstname: String) : String {
+    return "${name} ${firstname}"
+}</code></pre></div></div>
+<aside class="notes"><div class="ulist"><ul><li><p>fun</p></li><li><p>globale / locale</p></li><li><p>déclaration paramètre</p></li><li><p>type retour</p><div class="ulist"><ul><li><p>Unit si pas de retour</p></li></ul></div></li></ul></div></aside></section><section id="dclaration_fonctions_2"><h2>DÉCLARATION FONCTIONS</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">fun speakerNameInline(name: String, firstname: String) = "${name} ${firstname}"
+
+// - 2.21 Gigowatts !! 2.21 Gigowatts !! Mon dieu !</code></pre></div></div>
+<aside class="notes"><div class="ulist"><ul><li><p>inline</p></li><li><p>type retour optionnel</p></li></ul></div></aside></section><section id="parametre_facultatif"><h2>PARAMETRE FACULTATIF</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">fun printHello(name: String?): Unit {
+  if (name != null)
+    println("Hello ${name}")
+  else
+   println("Hi there!")
+}</code></pre></div></div></section><section id="valeur_par_dfaut"><h2>VALEUR PAR DÉFAUT</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">fun printMessage(name: String = "galettes-saucisses"): Unit {
+    println("Au BreizhCamp on aime les ${name} !")
+}
+
+fun main(args: Array<String>) {
+    printMessage()                  // Au BreizhCamp on aime les galettes-saucisses !
+    printMessage("chapeaux ronds")  // Au BreizhCamp on aime les chapeaux ronds !
+}</code></pre></div></div></section><section id="parametre_nomm"><h2>PARAMETRE NOMMÉ</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">fun buildMessage(
+        name: String,
+        upper: Boolean,
+        withEmoji: Boolean
+): String {
+
+ // ...
+
+}</code></pre></div></div></section><section id="parametre_nomm_2"><h2>PARAMETRE NOMMÉ</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">val message = buildMessage("Christopher Lloyd", true, false)
+
+// On ne sait jamais, peut-être qu'on se rencontrera un jour futur.</code></pre></div></div></section><section id="parametre_nomm_3"><h2>PARAMETRE NOMMÉ</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">val messageWithNamedArguments = buildMessage("Christopher Lloyd",
+  withEmoji = false,
+  upper = true)</code></pre></div></div></section><section id="lambda_it"><h2>LAMBDA / IT</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">val adrien = Speaker("Adrien")
+val doc = Speaker("Doc")
+val gautier = Speaker("Gautier")
+val marty = Speaker("Marty")
+
+val speakers = arrayOf(marty, adrien, gautier, doc)
+
+val speakersNames = speakers
+        .filter { it.name.length <= 5 }
+        .sortedBy { it.name }
+        .map { it.name.toUpperCase() }
+
+print(speakersNames) // [DOC, MARTY]</code></pre></div></div>
+<aside class="notes"><div class="paragraph"><p>it correspond à l&#8217;élement courant</p></div>
+<div class="paragraph"><p>lambda sans utilisation des <code>arrows</code></p></div></aside></section><section id="class"><h2>CLASS</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">class UserServices(val name: String, val age: Int) {
+  var credentials: Credentials;
+  fun getUsers()...
+}
+
+val userServices = UserServices('Marty', 33)</code></pre></div></div></section><section id="object_class"><h2>OBJECT CLASS</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">object class MySingleton</code></pre></div></div>
+<aside class="notes"><div class="paragraph"><p>Pas de constructeur</p></div></aside></section><section id="data_class"><h2>DATA CLASS</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">data class User(var name: String, var age: Int)</code></pre></div></div>
+<aside class="notes"><div class="paragraph"><p>pas besoin de lombock</p></div></aside></section><section id="data_class_2"><h2>DATA CLASS</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">people.copy(age = 32)</code></pre></div></div></section><section id="overloading_java"><h2>OVERLOADING JAVA</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="java language-java">class RegisterService{
+  public RegisterService(String speaker){
+    this.speaker = speaker;
+    this.isFromBzh = true;
+  }
+  public RegisterService(String speaker, String coSpeaker){
+    this.speaker = speaker;
+    this.coSpeaker = coSpeaker;
+    this.isFromBzh = true;
+  }
+  public RegisterService(String speaker, String coSpeaker, Boolean isFromBzh){
+    this.speaker = speaker;
+    this.coSpeaker = coSpeaker;
+    this.isFromBzh = isFromBzh;
+  }
+}</code></pre></div></div></section><section id="overloading_kotlin"><h2>OVERLOADING KOTLIN</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">class RegisterService(val speaker: String, val coSpeaker: String?, val isFromBzh = true)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// BZH</code></pre></div></div></section></section>
+<section><section id="flow_control"><h2>FLOW CONTROL</h2></section><section id="if"><h2>IF</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">val marty = Speaker("Marty")
+val adrien = Speaker("Adrien")
+
+// The program runs some mystic algorithms
+
+val speakerForBreizhCamp = if (marty.isNotInThePast()) {
+  print("Choose ${marty.name}")
+  marty
+} else {
+  print("Choose ${adrien.name}")
+  adrien
+}</code></pre></div></div>
+<aside class="notes"><div class="ulist"><ul><li><p>expression &#8658; renvoit une valeur</p></li><li><p>remplace l&#8217;opérateur ternaire</p></li><li><p>derniere expression = valeur renvoyée</p></li></ul></div></aside></section><section id="elvis_operator"><h2>ELVIS OPERATOR</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">val city = user?.address?
+  .city ?: throw IllegalArgumentException("Invalid User")</code></pre></div></div>
+<div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">findOrder()?.let { dun(it.customer) }</code></pre></div></div>
+<aside class="notes"><div class="ulist"><ul><li><p>simplification du null check</p></li><li><p>invocation du reste du code que si pas null</p></li></ul></div></aside></section><section id="when"><h2>WHEN</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">val currentAction = when (year) {
+  1985 -> "On the parking lot with Doc and Marty"
+  1955 -> "Marty in the past"
+  2015, 2030 -> "Marty in the futur"
+  in 2011..2018 -> "Marty in the BreizhCamp"
+  else -> {
+    print("Qui t'appelles « banane », banane ?")
+  }
+}</code></pre></div></div>
+<aside class="notes"><div class="ulist"><ul><li><p>filtrage par motif</p></li></ul></div></aside></section><section id="when_2"><h2>WHEN</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">when {
+  isGeorgeWantToDateLorraine() -> scareHimWithADarkVadorVoice()
+  !isTheCityHallClockSettedUp() -> findDoc()
+  isDeloreanFullyCharged(delorean) -> travel()
+}
+
+
+
+// BZH</code></pre></div></div></section><section id="try_catch"><h2>TRY CATCH</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">val answer: Int = try {
+  parseInt(input)
+}
+catch (e: NumberFormatException) {
+  42
+}</code></pre></div></div>
+<aside class="notes"><div class="ulist"><ul><li><p>expression &#8658; renvoit valeur</p></li><li><p>au moins un catch ou un finally</p></li></ul></div></aside></section></section>
+<section><section id="kotlin_standard_library"><h2>KOTLIN STANDARD LIBRARY</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">val speaker = "McFly"
+val year = 1985
+if(speaker.isNotBlank()){
+  print("""BTTF with ${speaker.capitalize()}""")
+  print(year.plus(33))
+}</code></pre></div></div></section><section id="kotlin_standard_library_2"><h2>KOTLIN STANDARD LIBRARY</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">val years = arrayOf(1985, 1992, 2018)
+print(years.average())
+
+
+
+//</code></pre></div></div>
+<aside class="notes"><div class="paragraph"><p>Shape of the code</p></div></aside></section></section>
+<section><section id="extensions"><h2>EXTENSIONS</h2><div class="paragraph"><p>Le polyfill du Java dans Kotlin</p></div><aside class="notes"><div class="ulist"><ul><li><p>provient de C#</p></li><li><p>permet d&#8217;étendre un type sans modifier la classe de départ</p></li><li><p>ne permet pas la surcharge des méthodes déclarés dans une classe ou une interface</p></li><li><p>on doit les importer comme les fonctions de premier niveau</p></li></ul></div></aside></section><section id="extensions_2"><h2>EXTENSIONS</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">open class Humain {
+    fun voyager(destination: String) {
+        print("Voyager ${destination}")
+    }
+}
+
+class Doc : Humain() {
+    fun voyagerDansLeTemps(destination: String, annee: Int) {
+        // ...
+    }
+}
+
+val humain: Humain = Humain()
+humain.voyager("en Bretagne")
+humain.voyagerDansLeTemps("en Bretagne", 1985) // won't compile
+
+val doc: Doc = Doc()
+doc.voyagerDansLeTemps("en Bretagne", 1985)
+
+//Back to the Breizh</code></pre></div></div></section><section id="extensions_3"><h2>EXTENSIONS</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">open class Humain {
+    fun voyager(destination: String) {
+        print("Voyager ${destination}")
+    }
+}
+
+fun Humain.voyagerDansLeTemps(destination: String, annee: Int) {
+
+
+
+}
+
+val humain: Humain = Humain()
+humain.voyager("en Bretagne")
+humain.voyagerDansLeTemps("en Bretagne", 1985)
+
+
+
+
+//Back to the Breizh</code></pre></div></div></section></section>
+<section><section id="functional_programming"><h2>FUNCTIONAL PROGRAMMING</h2><div class="paragraph"><p>Kotlin n&#8217;est pas un langage fonctionnel</p></div></section><section id="immutabilit"><h2>IMMUTABILITÉ</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">data class Speaker (val name: String, val location: String)
+
+val marty = Speaker("Marty", "Hill Valley")
+
+// Marty doit aller au BreizhCamp</code></pre></div></div></section><section id="immutabilit_2"><h2>IMMUTABILITÉ</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">data class Speaker (val name: String, val location: String)
+
+val marty = Speaker("Marty", "Hill Valley")
+
+marty.location = "BreizhCamp" // won't compile</code></pre></div></div></section><section id="immutabilit_3"><h2>IMMUTABILITÉ</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">data class Speaker (val name: String, val location: String)
+
+val marty = Speaker("Marty", "Hill Valley")
+
+val martyAuBreizhCamp = marty.copy(location = "BreizhCamp")</code></pre></div></div></section><section id="fonction_d_ordre_suprieur"><h2>FONCTION&nbsp;D&#8217;ORDRE SUPÉRIEUR</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">fun doSomething(speaker: String, fn: (String) -&gt; String): Unit {
+    val result = fn(speaker)
+    println(result)
+}
+
+doSomething("Marty", {s -&gt; "${s} va à la plage de Treac’h er Goured"})</code></pre></div></div>
+<aside class="notes"><div class="paragraph"><p>En mathématiques et en informatique, les fonctions d&#8217;ordre supérieur ou fonctionnelles sont des fonctions qui ont au moins une des propriétés suivantes :</p></div>
+<div class="ulist"><ul><li><p>elles prennent une ou plusieurs fonctions en entrée ;</p></li><li><p>elles renvoient une fonction.</p></li></ul></div></aside></section><section id="fonction_d_ordre_suprieur_2"><h2>FONCTION&nbsp;D&#8217;ORDRE SUPÉRIEUR</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">fun goTo(destination: String): (String) -&gt; Unit
+  = { speaker -&gt; println("${speaker} va à la ${destination}") }
+
+
+
+
+// Marty doit aller à la plage</code></pre></div></div></section><section id="fonction_d_ordre_suprieur_3"><h2>FONCTION&nbsp;D&#8217;ORDRE SUPÉRIEUR</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">fun goTo(destination: String): (String) -&gt; Unit
+  = { speaker -&gt; println("${speaker} va à la ${destination}") }
+
+val goToPlage = goTo("plage de Treac’h er Goured")
+
+
+goToPlage("Marty")</code></pre></div></div></section><section id="pour_aller_plus_loin"><h2>POUR ALLER PLUS LOIN</h2><div class="ulist"><ul><li class="fragment"><p>Curryfication</p></li><li class="fragment"><p>Memoization</p></li><li class="fragment"><p>&#8230;&#8203;</p></li><li class="fragment"><p>ARROW : <a href="http://arrow-kt.io/" class="bare">http://arrow-kt.io/</a></p></li></ul></div>
+<aside class="notes"><div class="ulist"><ul><li><p>la curryfication désigne la transformation d&#8217;une fonction à plusieurs arguments en une fonction à un argument qui retourne une fonction sur le reste des arguments.</p></li><li><p>Pas d&#8217;implémentation de Either</p></li><li><p>Pas de Tuple mais Pair et Triple</p></li><li><p>Surcharge d&#8217;opérateur</p></li><li><p>arrow-kt</p><div class="ulist"><ul><li><p>Type class : Monoid, Functor&#8230;&#8203;</p></li><li><p>Data Type : Either, Try, Option&#8230;&#8203;</p></li><li><p>Très jeune (surtout actif depuis 2017)</p></li><li><p>Documentation très (trop) legère</p></li></ul></div></li></ul></div></aside></section></section>
+<section><section id="coroutine"><h2>COROUTINE</h2><div class="paragraph"><p>&nbsp;</p></div><div class="paragraph"><p>&nbsp;</p></div><div class="paragraph"><p>&nbsp;</p></div><aside class="notes"><div class="ulist"><ul><li><p>coroutine &#8658; thread léger collaboratif. transition vers une autre coroutine à sa demande.</p></li><li><p>thread &#8658; scheduleur pré-emptif.horloges synchronisent les changements de contextes.</p></li></ul></div></aside></section><section id="coroutine_2"><h2>COROUTINE</h2><div class="imageblock" style=""><img src="http://demo-hubpress.anthonnyquerouil.fr/images/frise.png" alt="frise"></div></section><section id="coroutine_3"><h2>COROUTINE</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">fun journeyInThePast() = async(1955Context) {
+    messUpParentProm().await()
+    findPower().await()
+    print "Marty"
+}
+
+launch() {
+    print("fight Lebaneses")
+    journeyInThePast().await()
+    print("go away from Lebaneses")
+}</code></pre></div></div></section><section id="coroutine_4"><h2>COROUTINE</h2><div class="listingblock"><div class="content"><pre class="highlight"><code data-noescape class="kotlin language-kotlin">val messUpParentProm = async(){...}
+
+val findPower = async(){...}
+
+suspend fun journeyInThePast(): String {
+    messUpParentProm().await()
+    findPower().await()
+    return "Marty"
+}
+
+launch() {
+    print("fight Lebaneses")
+    print(journeyInThePast().await())
+    print("go away from Lebaneses")
+}</code></pre></div></div>
+<aside class="notes"><div class="ulist"><ul><li><p>Thead block</p></li><li><p>Async no blocking but work with context</p></li><li><p>suspend no blocking and return value</p></li></ul></div></aside></section></section>
+<section id="kotlin_et_les_frameworks"><h2>KOTLIN ET LES FRAMEWORKS</h2><div class="ulist"><ul><li><p>Spring Boot + JUnit 5</p></li><li><p>jackson-kotlin</p></li><li><p>kTor</p></li><li><p>Javalin</p></li><li><p>Kotlin arrow</p></li><li><p>Jhipster-kotlin</p></li><li><p>Gradle - Kotlin DSL</p></li></ul></div></section>
+<section id="kotlin_multiplateforme"><h2>KOTLIN MULTIPLATEFORME</h2><div class="ulist"><ul><li><p>JVM</p></li><li><p>JS</p></li><li><p>Natif</p></li></ul></div></section>
+<section id="thanks"><h2>THANKS</h2><div class="paragraph"><p>Any Question ?</p></div></section></div></div><script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/js/head.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/js/reveal.js"></script><script>// See https://github.com/hakimel/reveal.js#configuration for a full list of configuration options
+Reveal.initialize({
+  // Display controls in the bottom right corner
+  controls: true,
+  // Display a presentation progress bar
+  progress: true,
+  // Set a per-slide timing for speaker notes, null means none
+  defaultTiming: null,
+  // Display the page number of the current slide
+  slideNumber: true,
+  // Push each slide change to the browser history
+  history: false,
+  // Enable keyboard shortcuts for navigation
+  keyboard: true,
+  // Enable the slide overview mode
+  overview: true,
+  // Vertical centering of slides
+  center: true,
+  // Enables touch navigation on devices with touch input
+  touch: true,
+  // Loop the presentation
+  loop: false,
+  // Change the presentation direction to be RTL
+  rtl: false,
+  // Randomizes the order of slides each time the presentation loads
+  shuffle: false,
+  // Turns fragments on and off globally
+  fragments: true,
+  // Flags if the presentation is running in an embedded mode,
+  // i.e. contained within a limited portion of the screen
+  embedded: false,
+  // Flags if we should show a help overlay when the questionmark
+  // key is pressed
+  help: true,
+  // Flags if speaker notes should be visible to all viewers
+  showNotes: false,
+  // Global override for autolaying embedded media (video/audio/iframe)
+  // - null: Media will only autoplay if data-autoplay is present
+  // - true: All media will autoplay, regardless of individual setting
+  // - false: No media will autoplay, regardless of individual setting
+  autoPlayMedia: null,
+  // Number of milliseconds between automatically proceeding to the
+  // next slide, disabled when set to 0, this value can be overwritten
+  // by using a data-autoslide attribute on your slides
+  autoSlide: 0,
+  // Stop auto-sliding after user input
+  autoSlideStoppable: true,
+  // Enable slide navigation via mouse wheel
+  mouseWheel: false,
+  // Hides the address bar on mobile devices
+  hideAddressBar: true,
+  // Opens links in an iframe preview overlay
+  previewLinks: false,
+  // Theme (e.g., beige, black, league, night, serif, simple, sky, solarized, white)
+  // NOTE setting the theme in the config no longer works in reveal.js 3.x
+  //theme: Reveal.getQueryHash().theme || 'black',
+  // Transition style (e.g., none, fade, slide, convex, concave, zoom)
+  transition: Reveal.getQueryHash().transition || 'fade',
+  // Transition speed (e.g., default, fast, slow)
+  transitionSpeed: 'default',
+  // Transition style for full page slide backgrounds (e.g., none, fade, slide, convex, concave, zoom)
+  backgroundTransition: 'fade',
+  // Number of slides away from the current that are visible
+  viewDistance: 3,
+  // Parallax background image (e.g., "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'")
+  parallaxBackgroundImage: '',
+  // Parallax background size in CSS syntax (e.g., "2100px 900px")
+  parallaxBackgroundSize: '',
+
+  // The "normal" size of the presentation, aspect ratio will be preserved
+  // when the presentation is scaled to fit different resolutions. Can be
+  // specified using percentage units.
+  width: "100%",
+  height: "100%",
+
+  // Factor of the display size that should remain empty around the content
+  margin: 0,
+
+  // Bounds for smallest/largest possible scale to apply to content
+  minScale: 1,
+  maxScale: 1,
+
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/zoom-js/zoom.js', async: true },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/notes/notes.js', async: true }
+  ]
+});</script></body></html>
