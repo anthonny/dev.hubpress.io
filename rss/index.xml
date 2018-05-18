@@ -1,24 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Demo HubPress Anthonny]]></title><description><![CDATA[Another demo of HubPress]]></description><link>http://demo-hubpress.anthonnyquerouil.fr</link><image><url>https://images.pexels.com/photos/14676/pexels-photo-14676.png?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260</url><title>Demo HubPress Anthonny</title><link>http://demo-hubpress.anthonnyquerouil.fr</link></image><generator>RSS for Node</generator><lastBuildDate>Fri, 18 May 2018 16:45:32 GMT</lastBuildDate><atom:link href="http://demo-hubpress.anthonnyquerouil.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[New blog post]]></title><description><![CDATA[<div class="paragraph">
-<p>Let&#8217;s go</p>
-</div>]]></description><link>http://demo-hubpress.anthonnyquerouil.fr/2018/05/18/New-blog-post.html</link><guid isPermaLink="true">http://demo-hubpress.anthonnyquerouil.fr/2018/05/18/New-blog-post.html</guid><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Fri, 18 May 2018 00:00:00 GMT</pubDate></item><item><title><![CDATA[Test post change label 6]]></title><description><![CDATA[<div class="paragraph">
-<p>Hello you!</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="http://demo-hubpress.anthonnyquerouil.fr/images/cover-hubpress.png" alt="cover hubpress">
-</div>
-</div>]]></description><link>http://demo-hubpress.anthonnyquerouil.fr/2018/05/11/Test-post-change-label-6.html</link><guid isPermaLink="true">http://demo-hubpress.anthonnyquerouil.fr/2018/05/11/Test-post-change-label-6.html</guid><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Fri, 11 May 2018 00:00:00 GMT</pubDate></item><item><title><![CDATA[First post]]></title><description><![CDATA[<div class="paragraph">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper lacinia interdum. Mauris at lacus gravida, sodales nulla ac, tristique metus. Nullam venenatis commodo enim a porttitor. Sed a neque ut odio venenatis euismod non ac felis. In eget lacus nec mi consequat pulvinar dignissim sit amet eros. Morbi in nulla urna. Donec at nunc metus. Duis at leo elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-</div>
-<div class="paragraph">
-<p>Pellentesque porttitor magna nec facilisis pharetra. Pellentesque tincidunt id nibh sit amet porttitor. Integer scelerisque quam quis magna sagittis, quis luctus dolor fermentum. Nullam ultricies malesuada ligula, et bibendum odio fermentum eget. Quisque odio magna, maximus vitae purus ac, auctor faucibus dui. Morbi condimentum ultrices nisi, ut euismod metus ultrices non. Pellentesque placerat mi id lectus dictum, vel dapibus arcu ultricies. Etiam sed laoreet nibh, lacinia aliquet tellus. Sed commodo lectus nisl, ut cursus eros vehicula sed. Nulla vehicula massa libero, et dictum ex viverra sit amet. Phasellus vitae cursus felis.</p>
-</div>
-<div class="paragraph">
-<p>Donec vel ex eget eros volutpat hendrerit. Integer maximus odio in vulputate ultrices. Pellentesque nec dapibus nisl. Nulla porta est eget leo tempus, a ultricies dui facilisis. Donec facilisis dolor a ipsum imperdiet, ac volutpat orci finibus. Integer tempus mi massa, sed faucibus dolor semper ac. Vivamus efficitur sit amet lacus vitae volutpat. Suspendisse mauris quam, imperdiet id odio quis, interdum viverra lacus. Fusce posuere nibh eu mauris efficitur, ut tincidunt velit varius. Mauris condimentum tellus id libero iaculis, vitae mattis justo fringilla. Morbi posuere arcu sed nulla scelerisque tempus. Duis tempus massa vitae fringilla congue. Aliquam ipsum metus, volutpat et ligula ac, sagittis eleifend eros. Etiam sed tempus nunc. Pellentesque vehicula tortor gravida, ultricies nulla eu, viverra risus.</p>
-</div>
-<div class="paragraph">
-<p>Cras pulvinar nisl eu ultrices pellentesque. Etiam ac lacus ex. Vestibulum id hendrerit augue. Sed fringilla eros a interdum semper. Mauris eget felis tristique magna lacinia pellentesque. Ut gravida, libero ac volutpat elementum, sem diam posuere lectus, vel elementum est urna vitae metus. Suspendisse id aliquet est. Duis rhoncus enim nisl, quis sollicitudin lacus consectetur ut. Nam sit amet dui ex. Etiam ut massa sed dolor ullamcorper porttitor non sit amet dolor. Praesent rhoncus consectetur leo. In facilisis, lorem scelerisque feugiat molestie, ipsum est dignissim nisi, ac volutpat arcu ipsum vel neque. Nunc vehicula arcu non tempor imperdiet. Donec vel convallis nisl.</p>
-</div>
-<div class="paragraph">
-<p>Vestibulum elit velit, fringilla ac pulvinar et, pharetra a ligula. Integer eget est a mauris suscipit egestas at sit amet augue. Fusce facilisis ex arcu, in viverra mi aliquam nec. Proin vulputate mi vitae ex vehicula rhoncus. Nunc nec consectetur turpis, nec vulputate felis. Proin at tincidunt magna. Duis blandit tincidunt ligula a sollicitudin. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin risus nibh, accumsan at venenatis et, malesuada vel libero. Donec lorem ipsum, tempus et lorem non, vestibulum ultrices quam. Maecenas commodo dictum ornare. Maecenas elementum bibendum tortor sed mattis. Etiam laoreet dui sed diam ultricies, eget venenatis neque mattis.</p>
-</div>]]></description><link>http://demo-hubpress.anthonnyquerouil.fr/2018/05/07/First-post.html</link><guid isPermaLink="true">http://demo-hubpress.anthonnyquerouil.fr/2018/05/07/First-post.html</guid><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Mon, 07 May 2018 00:00:00 GMT</pubDate></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Demo HubPress Anthonny]]></title><description><![CDATA[Another demo of HubPress]]></description><link>http://demo-hubpress.anthonnyquerouil.fr</link><image><url>https://images.pexels.com/photos/14676/pexels-photo-14676.png?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260</url><title>Demo HubPress Anthonny</title><link>http://demo-hubpress.anthonnyquerouil.fr</link></image><generator>RSS for Node</generator><lastBuildDate>Fri, 18 May 2018 16:59:15 GMT</lastBuildDate><atom:link href="http://demo-hubpress.anthonnyquerouil.fr/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[aTest again]]></title><description><![CDATA[<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>aTest again</title><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" name="viewport"><link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.css" rel="stylesheet"><link rel="stylesheet" href="$$revealjs_customtheme$$" id="theme"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"><link href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/css/zenburn.css" rel="stylesheet"><script>var link = document.createElement( 'link' );
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = window.location.search.match( /print-pdf/gi ) ? "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/print/pdf.css" : "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/print/paper.css";
+document.getElementsByTagName( 'head' )[0].appendChild( link );</script><!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/js/html5shiv.js"></script><![endif]--></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title"><h1>aTest again</h1></section><section id="my_conference"><h2>My Conference</h2></section></div></div><script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/js/head.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/js/reveal.js"></script><script>// See https://github.com/hakimel/reveal.js#configuration for a full list of configuration options
+Reveal.initialize({
+  // Display controls in the bottom right corner
+  controls: true,
+  // Display a presentation progress bar
+  progress: true,
+  // Set a per-slide timing for speaker notes, null means none
+  defaultTiming: null,
+  // Display the page number of the current slide
+  slideNumber: false,
+  // Push each slide change to the browser history
+  history: false,
+  // Enable keyboard shortcuts for navigation
+  keyboard: true,
+  // Enable the slide overview mode
+  overview: true,
+  // Vertical centering of slides
+  center: true,
+  // Enables touch navigation on devices with touch input
+  touch: true,
+  // Loop the presentation
+  loop: false,
+  // Change the presentation direction to be RTL
+  rtl: false,
+  // Randomizes the order of slides each time the presentation loads
+  shuffle: false,
+  // Turns fragments on and off globally
+  fragments: true,
+  // Flags if the presentation is running in an embedded mode,
+  // i.e. contained within a limited portion of the screen
+  embedded: false,
+  // Flags if we should show a help overlay when the questionmark
+  // key is pressed
+  help: true,
+  // Flags if speaker notes should be visible to all viewers
+  showNotes: false,
+  // Global override for autolaying embedded media (video/audio/iframe)
+  // - null: Media will only autoplay if data-autoplay is present
+  // - true: All media will autoplay, regardless of individual setting
+  // - false: No media will autoplay, regardless of individual setting
+  autoPlayMedia: null,
+  // Number of milliseconds between automatically proceeding to the
+  // next slide, disabled when set to 0, this value can be overwritten
+  // by using a data-autoslide attribute on your slides
+  autoSlide: 0,
+  // Stop auto-sliding after user input
+  autoSlideStoppable: true,
+  // Enable slide navigation via mouse wheel
+  mouseWheel: false,
+  // Hides the address bar on mobile devices
+  hideAddressBar: true,
+  // Opens links in an iframe preview overlay
+  previewLinks: false,
+  // Theme (e.g., beige, black, league, night, serif, simple, sky, solarized, white)
+  // NOTE setting the theme in the config no longer works in reveal.js 3.x
+  //theme: Reveal.getQueryHash().theme || 'black',
+  // Transition style (e.g., none, fade, slide, convex, concave, zoom)
+  transition: Reveal.getQueryHash().transition || 'slide',
+  // Transition speed (e.g., default, fast, slow)
+  transitionSpeed: 'default',
+  // Transition style for full page slide backgrounds (e.g., none, fade, slide, convex, concave, zoom)
+  backgroundTransition: 'fade',
+  // Number of slides away from the current that are visible
+  viewDistance: 3,
+  // Parallax background image (e.g., "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'")
+  parallaxBackgroundImage: '',
+  // Parallax background size in CSS syntax (e.g., "2100px 900px")
+  parallaxBackgroundSize: '',
+
+  // The "normal" size of the presentation, aspect ratio will be preserved
+  // when the presentation is scaled to fit different resolutions. Can be
+  // specified using percentage units.
+  width: 960,
+  height: 700,
+
+  // Factor of the display size that should remain empty around the content
+  margin: 0.1,
+
+  // Bounds for smallest/largest possible scale to apply to content
+  minScale: 0.2,
+  maxScale: 1.5,
+
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/zoom-js/zoom.js', async: true },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/notes/notes.js', async: true }
+  ]
+});</script></body></html>]]></description><link>http://demo-hubpress.anthonnyquerouil.fr/decks/a-Test-again/index.html</link><guid isPermaLink="true">http://demo-hubpress.anthonnyquerouil.fr/decks/a-Test-again/index.html</guid><dc:creator><![CDATA[Anthonny Quérouil]]></dc:creator><pubDate>Fri, 18 May 2018 00:00:00 GMT</pubDate></item></channel></rss>
