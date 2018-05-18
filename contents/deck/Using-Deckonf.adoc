@@ -1,0 +1,9 @@
+= Using Deckonf
+:hp-type: deck
+:revealjs_theme: night
+:hp-deckonf: devoxxfr/2017, jugsummercamp/2015
+
+== Coming soon!
+
+image::https://media.giphy.com/media/HtaGVNHVnTNuw/giphy.gif[background, size=cover]
+
