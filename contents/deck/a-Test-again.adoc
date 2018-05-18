@@ -8,4 +8,6 @@
 
 = aTest again
 :hp-type: deck
-:hp-deckonf: devoxxfr/2017
+:hp-deckonf: devoxxfr/2017, jugsummercamp/2015, bdxio/2015, devoxxfr/2018
+
+== My Conference
