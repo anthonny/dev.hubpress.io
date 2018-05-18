@@ -8,3 +8,4 @@
 
 = aTest again
 :hp-type: deck
+:hp-deckonf: devoxxfr/2017
