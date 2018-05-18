@@ -7,7 +7,6 @@
 // :hp-alt-title: My English Title
 
 = aTest again
-:hp-image: https://www.aneo.eu/wp-content/uploads/2018/03/D2SI_Blog_Image_DevoxxParis2016_2.jpg
 :hp-type: deck
 :hp-deckonf: devoxxfr/2017, jugsummercamp/2015, bdxio/2015, devoxxfr/2018
 
