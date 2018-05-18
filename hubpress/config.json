@@ -6,7 +6,7 @@
     "cname": "demo-hubpress.anthonnyquerouil.fr"
   },
   "theme": {
-    "name": "casper"
+    "name": "ghostium"
   },
   "urls": {
     "site": "http://demo-hubpress.anthonnyquerouil.fr",
@@ -66,6 +66,10 @@
     {
       "label": "About",
       "url": "https://anthonny.github.io/dev.hubpress.io/about-me.html"
+    },
+    {
+      "label": "Decks",
+      "url": "https://anthonny.github.io/dev.hubpress.io/decks"
     }
   ]
 }
