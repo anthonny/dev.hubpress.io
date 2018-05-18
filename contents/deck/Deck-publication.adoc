@@ -6,7 +6,7 @@
 // :hp-tags: HubPress, Blog, Open_Source,
 // :hp-alt-title: My English Title
 
-= aTest again
+= Deck publication
 :hp-type: deck
 :hp-deckonf: devoxxfr/2017, jugsummercamp/2015, bdxio/2015, devoxxfr/2018
 
