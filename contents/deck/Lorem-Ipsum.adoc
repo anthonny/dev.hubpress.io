@@ -8,6 +8,7 @@
 
 = Lorem Ipsum
 :hp-type: deck
+:hp-deckonf: bdxio/2015, devoxxfr/2018
 
 == Slide 1
 
