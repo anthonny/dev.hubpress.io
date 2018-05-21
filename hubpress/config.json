@@ -70,6 +70,10 @@
     {
       "label": "Decks",
       "url": "https://anthonny.github.io/dev.hubpress.io/decks"
+    },
+    {
+      "label": "Blog",
+      "url": "https://anthonny.github.io/dev.hubpress.io/blog"
     }
   ]
 }
