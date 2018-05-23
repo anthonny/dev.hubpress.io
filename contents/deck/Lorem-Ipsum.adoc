@@ -8,11 +8,22 @@
 
 = Lorem Ipsum
 :hp-type: deck
-:hp-deckonf: bdxio/2015, devoxxfr/2018
+:source-highlighter: highlightjs
+:hp-deckonf: bdxio/2015, devoxxfr/2018, devoxxfr/2017
 
 == Slide 1
 
+[source, javascript]
+----
+function maFonction() {
+	console.log('test')
+}
+----
+
+[%notitle]
 === Slide 1.1
+
+image::https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg[]
 
 === Slide 1.2
 
