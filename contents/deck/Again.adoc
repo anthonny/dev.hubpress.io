@@ -8,3 +8,20 @@
 
 = Again
 :hp-type: deck
+:hp-deckonf: devoxxfr/2017
+
+== Test 
+
+[transition=zoom, %notitle]
+== test 2
+
+[%step]
+* this
+* is
+* revealed
+* gradually
+
+== Test 3
+Text 
+image:https://demo.phpgang.com/crop-images/demo_files/pool.jpg[Tiger,50%,auto,float=left]
+Mon text
