@@ -10,7 +10,7 @@
 :hp-type: deck
 :hp-deckonf: devoxxfr/2017
 
-== Test 
+== Test :)
 
 [transition=zoom, %notitle]
 == test 2
