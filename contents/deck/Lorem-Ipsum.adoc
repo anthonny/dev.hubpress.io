@@ -9,7 +9,8 @@
 = Lorem Ipsum
 :hp-type: deck
 :source-highlighter: highlightjs
-:hp-deckonf: bdxio/2015, devoxxfr/2018, devoxxfr/2017, jugsummercamp/2015
+:revealjs_customtheme: https://anthonnyquerouil.fr/full-stack-reactivity-avec-meteorjs/bdxio2015/assets/theme/jsc2015
+:hp-deckonf: bdxio/2015, jugsummercamp/2015, devoxxfr/2018
 
 == Slide 1
 
